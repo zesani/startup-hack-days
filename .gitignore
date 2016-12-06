@@ -2,7 +2,4 @@
 node_modules/
 dist/
 npm-debug.log
-.babelrc
 .editorconfig
-.eslintignore
-.eslintrc.js
