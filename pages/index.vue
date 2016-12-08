@@ -85,7 +85,7 @@
                       <h3><strong>{{job.job_title}}</strong></h3> &nbsp;<small>{{job.job_place}}</small>
                     </div>
                   </div>
-                  <p>{{job.job_description}}</p>
+                  <p v-html="job.job_description"></p>
                 </div>
               </article>
             </div>
@@ -112,7 +112,7 @@
           {
             job_title: 'Product Designer',
             job_place: 'San Francisco / Remote',
-            job_description: 'Put your passion for design to work in helping us build the most stunningly beautiful products on the WordPress market.',
+            job_description: 'Put your passion for design to work in helping us build the most <br> stunningly beautiful products on the WordPress market.',
             job_button_style: 'background-color: #9741da;',
             href: 'product-designer'
           },
