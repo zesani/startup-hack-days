@@ -13,14 +13,18 @@
     </section>
 
     <section class="job-intro">
-      <div class="container is-half">
-        <h2 class="subtitle">Ready to Make An Impact On The Web?</h2>
-        <p>Elegant Themes is a leader in WordPress Theme and Plugin Development.
-          We have been building the top premium WordPress themes for the past 7 years,
-          and we have one of the largest customer bases in the market.
-          <strong style="color: #57b0fc;">371,133 customers</strong>
-          depend on our beautiful designs, and we work hard every day to make sure we are creating the best themes and plugins around. 
-          We have a distributed team of 34, with headquarters in the heart of San Francisco.</p>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-desktop">
+            <h2 class="subtitle">Ready to Make An Impact On The Web?</h2>
+            <p>Elegant Themes is a leader in WordPress Theme and Plugin Development.
+              We have been building the top premium WordPress themes for the past 7 years,
+              and we have one of the largest customer bases in the market.
+              <strong style="color: #57b0fc;">371,133 customers</strong>
+              depend on our beautiful designs, and we work hard every day to make sure we are creating the best themes and plugins around.
+              We have a distributed team of 34, with headquarters in the heart of San Francisco.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -51,7 +55,9 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="pictures">
       <div class="container">
         <div class="columns is-centered">
           <span class="" v-for="n in 3">
@@ -68,7 +74,7 @@
 
     <section class="jobs-listing">
       <div class="container">
-        <h2>We're Hiring</h2>
+        <h2 class="has-text-centered">We're Hiring</h2>
         <div v-for="job in job_items">
           <div class="columns">
             <div class="column is-10">
@@ -84,8 +90,10 @@
               </article>
             </div>
 
-            <div class="column is-2 ">
-              <button :href="job.href" class="button is-primary" :style="job.job_button_style">Learn More</button>
+            <div class="column is-2 has-text-centered">
+              <router-link class="button is-primary" :to="job.href" :style="job.job_button_style">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -144,6 +152,9 @@
 </script>
 
 <style scoped>
+section {
+  margin-bottom: 60px;
+}
 section.app-header div#app-header {
   background-color: #9238d8;
   background-size: cover;
@@ -179,17 +190,17 @@ h3{
 }
 
 section.job-intro .container{
-  margin-top: 150px;
+  /*margin-top: 150px;*/
   color: #777777;
   font-weight: 100;
-  width: 660px;
+  padding: 30px;
 }
 section.job-intro p{
   font-size: 125%;
 }
 
 section.about-us .container{
-  padding: 75px 75px;
+  padding: 0 50px;
   text-align: left;
   color: #777777;
 }
@@ -200,26 +211,27 @@ section.jobs-listing small {
   font-style: italic;
 }
 section.jobs-listing div.columns{
-  margin: 30px;
+  margin: 0 20px;
   border-bottom: 1px solid #dedede;
+  padding-bottom: 30px;
 }
 section.jobs-listing p{
   font-weight: 100;
 }
 section.jobs-listing div.media-content{
   display: inline-block;
-  padding: 25px 0;
+  padding: 25px 0 0;
 }
-section.jobs-listing button {
-  float: right;
+section.jobs-listing a {
+  /*float: right;*/
   font-weight: 500;
   text-transform: uppercase;
-  padding: 20px 20px 40px 20px;
+  padding: 30px 20px 30px;
   border-radius: 3px;
   margin-top: 20px;
 }
 section.jobs-listing div.column.is-2{
   margin: auto;
-  height: 50%;
+  /*height: 50%;*/
 }
 </style>
