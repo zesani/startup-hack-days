@@ -1,13 +1,15 @@
 <template>
   <div>
-    <section class="app-header">
-      <div id="app-header">
+    <section class="hero is-info is-fullheight">
+      <div class="hero-body" id="app-header">
         <div class="container">
-          <hgroup class="hero-body" id="site-description">
-            <h1 class="title">Join The Elegant Themes Team</h1>
-            <h2><strong>Build Beautiful Products That Power The Web </strong></h2>
-            <a class="button is-large" href="#job_listings">View Open Positions</a>
-          </hgroup>
+          <h1 class="title is-1">
+            Join The Sellsuki Team
+          </h1>
+          <h2 class="subtitle is-3">
+            Build Beautiful Products That Power The E-Commerce
+          </h2>
+          <a class="button is-large" href="#job_listings">View Open Positions</a>
         </div>
       </div>
     </section>
@@ -72,7 +74,7 @@
       </div>
     </section>
 
-    <section class="jobs-listing">
+    <section id="job_listings" class="jobs-listing">
       <div class="container">
         <h2 class="has-text-centered">We're Hiring</h2>
         <div v-for="job in job_items">
@@ -99,7 +101,6 @@
         </div>
       </div>
     </section>
-
   </div>
 </template>
 
@@ -155,45 +156,20 @@
 body {
   overflow: hidden;
 }
-section {
+section .container{
   margin-bottom: 60px;
 }
-section.app-header div#app-header {
-  background-color: #9238d8;
+div#app-header {
   background-size: cover;
   background-image: url(https://www.elegantthemes.com/careers/images/careers-hero-bg.jpg);
-  padding: 150px 0;
 }
-section.app-header hgroup#site-description {
-  letter-spacing: -1px;
-  font-style: normal;
-  color: white;
-}
-section.app-header hgroup#site-description h1 {
-  font-size: 500%;
-  color: white;
-}
-section.app-header hgroup#site-description h2 {
-  font-size: 200%;
-  padding: 25px 0;
-  color: white;
-}
-section.app-header a.button {
+section a.button {
   color: #9238d8;
 }
-section.app-header strong{
-  color: white;
+section.job-intro {
+  padding-top: 60px;
 }
-
-h2{
-  font-size: 200%;
-}
-h3{
-  font-size: 125%;
-}
-
 section.job-intro .container{
-  /*margin-top: 150px;*/
   color: #777777;
   font-weight: 100;
   padding: 30px;
@@ -201,7 +177,6 @@ section.job-intro .container{
 section.job-intro p{
   font-size: 125%;
 }
-
 section.about-us .container{
   padding: 0 50px;
   text-align: left;
@@ -226,7 +201,6 @@ section.jobs-listing div.media-content{
   padding: 25px 0 0;
 }
 section.jobs-listing a {
-  /*float: right;*/
   font-weight: 500;
   text-transform: uppercase;
   padding: 30px 20px 30px;
@@ -235,7 +209,6 @@ section.jobs-listing a {
 }
 section.jobs-listing div.column.is-2{
   margin: auto;
-  /*height: 50%;*/
 }
 
 img.column {
