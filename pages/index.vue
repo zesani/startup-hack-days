@@ -151,7 +151,10 @@
 
 </script>
 
-<style scoped>
+<style>
+body {
+  overflow: hidden;
+}
 section {
   margin-bottom: 60px;
 }
@@ -233,5 +236,9 @@ section.jobs-listing a {
 section.jobs-listing div.column.is-2{
   margin: auto;
   /*height: 50%;*/
+}
+
+img.column {
+  width: 100%;
 }
 </style>

@@ -7,7 +7,7 @@ import { omit } from 'lodash'
 import { app, router } from './index'
 import { getMatchedComponents, getContext, promisify, urlJoin } from './utils'
 
-const isDev = true
+const isDev = false
 const _app = new Vue(app)
 
 // Fix issue from vue-router Abstract mode with base (used for server-side rendering)
@@ -48,7 +48,7 @@ export default context => {
   // Error function
   context.error = _app.$options._nuxt.error.bind(_app)
 
-  const s = isDev && Date.now()
+  
   let Components = getMatchedComponents(context.route)
   
     let promise = Promise.resolve()
@@ -89,8 +89,6 @@ export default context => {
       
       return _app
     }
-    
-      debug('Data fetching ' + context.req.url + ': ' + (Date.now() - s) + 'ms')
     
     // datas are the first row of each
     context.nuxt.data = res.map((tab) => tab[0])
