@@ -9,7 +9,7 @@
           <h2 class="subtitle is-3">
             Build Beautiful Products That Power The E-Commerce
           </h2>
-          <a class="button is-large" href="#job_listings">View Open Positions</a>
+          <a class="button is-large" @click="scrollTo()">View Open Positions</a>
         </div>
       </div>
     </section>
@@ -105,10 +105,47 @@
 </template>
 
 <script>
+  function scrollTo (element, to, duration) {
+    if (duration <= 0) return
+    var difference = to - element.scrollTop
+    var perTick = difference / duration * 10
+
+    setTimeout(function () {
+      console.log(perTick)
+      element.scrollTop = element.scrollTop + perTick
+      if (element.scrollTop === to) return
+      scrollTo(element, to, duration - 10)
+    }, 10)
+  }
   export default {
     name: 'app-body',
+    methods: {
+      scrollTo () {
+        let elmnt = document.getElementById('job_listings')
+        scrollTo(document.body, elmnt.offsetTop, 300)
+        // console.log('scrollTo')
+        // let el = document.getElementById("job_listings")
+        // console.log(el)
+        // this.targetPosition = el.getBoundingClientRect().top
+        // console.log(this.targetPosition)
+        //
+        // this.scrollY = window.scrollY
+        //
+        // let scrollInterval = setInterval(() => {
+        //   console.log('scrollInterval')
+        //   if (this.scrollY < this.targetPosition - 50) {
+        //     this.scrollY += 100
+        //     window.scrollTo(0, this.scrollY)
+        //   } else {
+        //     clearInterval(scrollInterval)
+        //   }
+        // }, 10)
+      }
+    },
     data () {
       return {
+        scrollY: 0,
+        targetPosition: {},
         job_items: [
           {
             job_title: 'Product Designer',
