@@ -74,37 +74,14 @@
       </div>
     </section>
 
-    <section id="job_listings" class="jobs-listing">
-      <div class="container">
-        <h2 class="has-text-centered">We're Hiring</h2>
-        <div v-for="job in job_items">
-          <div class="columns">
-            <div class="column is-10">
-              <article class="media job-listing">
-                <div class="media-content">
-                  <div class="level">
-                    <div class="level-left">
-                      <h3><strong>{{job.job_title}}</strong></h3> &nbsp;<small>{{job.job_place}}</small>
-                    </div>
-                  </div>
-                  <p v-html="job.job_description"></p>
-                </div>
-              </article>
-            </div>
+    <JobListings></JobListings>
 
-            <div class="column is-2 has-text-centered">
-              <router-link class="button is-primary" :to="job.href" :style="job.job_button_style">
-                Learn More
-              </router-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
 <script>
+  import JobListings from '~components/JobListings.vue'
+
   function scrollTo (element, to, duration) {
     if (duration <= 0) return
     var difference = to - element.scrollTop
@@ -119,70 +96,19 @@
   }
   export default {
     name: 'app-body',
+    components: {
+      JobListings
+    },
     methods: {
       scrollTo () {
         let elmnt = document.getElementById('job_listings')
         scrollTo(document.body, elmnt.offsetTop, 300)
-        // console.log('scrollTo')
-        // let el = document.getElementById("job_listings")
-        // console.log(el)
-        // this.targetPosition = el.getBoundingClientRect().top
-        // console.log(this.targetPosition)
-        //
-        // this.scrollY = window.scrollY
-        //
-        // let scrollInterval = setInterval(() => {
-        //   console.log('scrollInterval')
-        //   if (this.scrollY < this.targetPosition - 50) {
-        //     this.scrollY += 100
-        //     window.scrollTo(0, this.scrollY)
-        //   } else {
-        //     clearInterval(scrollInterval)
-        //   }
-        // }, 10)
       }
     },
     data () {
       return {
         scrollY: 0,
-        targetPosition: {},
-        job_items: [
-          {
-            job_title: 'Product Designer',
-            job_place: 'San Francisco / Remote',
-            job_description: 'Put your passion for design to work in helping us build the most <br> stunningly beautiful products on the WordPress market.',
-            job_button_style: 'background-color: #9741da;',
-            href: 'product-designer'
-          },
-          {
-            job_title: 'WordPress Developer',
-            job_place: 'San Francisco / Remote',
-            job_description: 'We are looking for a WordPress guru to help us build some of the most widely-used WordPress products in the world.',
-            job_button_style: 'background-color: #84cf2f;',
-            href: 'wordpress-developer/'
-          },
-          {
-            job_title: 'Affiliate Marketing Manager',
-            job_place: 'San Francisco / Remote',
-            job_description: 'Help us manage and grow one of the largest WordPress affiliate programs in the world with over 29,000 affiliates and millions in sales.',
-            job_button_style: 'background-color: #57b0fc;',
-            href: 'affiliate-marketing-manager/'
-          },
-          {
-            job_title: 'Content Creator',
-            job_place: 'San Francisco / Remote',
-            job_description: 'Help us create content for one of the most popular WordPres blog on the internet and tutorials for a passionate community of designers.',
-            job_button_style: 'background-color: #57b0fc;',
-            href: 'content-creator/'
-          },
-          {
-            job_title: 'Customer Support Specialist',
-            job_place: 'San Francisco',
-            job_description: 'Nothing is more important to us than making our customers happy. Help us support the most enthusiastic WordPress community on the web.',
-            job_button_style: 'background-color: #57b0fc;',
-            href: 'customer-support-specialist/'
-          }
-        ]
+        targetPosition: {}
       }
     }
   }
