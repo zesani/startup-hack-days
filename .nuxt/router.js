@@ -6,8 +6,6 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 
-const _415c2632 = process.BROWSER_BUILD ? () => System.import('/Users/n9ti/Working/sellsuki-careers/pages/about.vue') : require('/Users/n9ti/Working/sellsuki-careers/pages/about.vue')
-
 const _611400f7 = process.BROWSER_BUILD ? () => System.import('/Users/n9ti/Working/sellsuki-careers/pages/index.vue') : require('/Users/n9ti/Working/sellsuki-careers/pages/index.vue')
 
 
@@ -32,12 +30,6 @@ export default new Router({
   linkActiveClass: 'router-link-active',
   scrollBehavior,
   routes: [
-    
-    {
-      path: '/about',
-      component: _415c2632,
-      name: 'about'
-    },
     
     {
       path: '/',

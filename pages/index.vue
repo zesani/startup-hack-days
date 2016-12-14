@@ -18,13 +18,11 @@
       <div class="container">
         <div class="columns">
           <div class="column is-desktop">
-            <h2 class="subtitle">Ready to Make An Impact On The Web?</h2>
-            <p>Elegant Themes is a leader in WordPress Theme and Plugin Development.
-              We have been building the top premium WordPress themes for the past 7 years,
-              and we have one of the largest customer bases in the market.
+            <h2 class="subtitle">Ready to Make An Impact On The E-Commerce?</h2>
+            <p>Soft kitty warm kitty little ball of furr my left donut is missing, as is my right but leave hair everywhere. Purr howl uncontrollably for no reason so purr, yet groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked! who's the baby, for wake up human for food at 4am. Eats owners hair then claws head spend all night ensuring people don't sleep sleep all day. Kitten is playing with dead mouse see owner, run in terror dream about hunting birds yet playing with balls of wool chase mice licks your face. Meow knock over christmas tree tuxedo cats always looking dapper or hide when guests come over play time. Stand in front of the computer screen lick sellotape. Cat is love, cat is life cat is love, cat is life, sit on the laptop pee in human's bed until he cleans the litter box.
               <strong style="color: #57b0fc;">371,133 customers</strong>
-              depend on our beautiful designs, and we work hard every day to make sure we are creating the best themes and plugins around.
-              We have a distributed team of 34, with headquarters in the heart of San Francisco.</p>
+              a bird! yum make muffins purr while eating. Present belly, scratch hand when stroked intently stare at the same spot put butt in owner's face milk the cow.
+            </p>
           </div>
         </div>
       </div>
@@ -35,25 +33,21 @@
         <div class="columns">
           <div class="column is-desktop">
             <strong>Our Mission</strong>
-            <p>We hold elegance at our core, and rally behind a shared passion for simple,
-            beautiful design. Elegant Themes isn't just a company, it's a community,
-            and we cling to the community-centric values that have guided us over the past 8 years.
-            We love WordPress, we love Open Source, and most of all we love building great things for our amazing customers.</p>
+            <p>
+              Tuxedo cats always looking dapper refuse to leave cardboard box cat is love, cat is life asdflkjaertvlkjasntvkjn (sits on keyboard). Cats go for world domination. Jump off balcony, onto stranger's head. Have my breakfast spaghetti yarn paw at your fat belly, but i like big cats and i can not lie, for curl up and sleep on the freshly laundered towels sit on the laptop or use lap as chair who's the baby. Jump around on couch, meow constantly until given food.
+            </p>
           </div>
           <div class="column is-desktop">
             <strong>Making an Impact</strong>
-            <p>We build some of the most widely-used products in the WordPress ecosystem,
-            impacting millions of websites around the world. According to BuiltWith,
-            our flagship theme Divi is the second most popular theme in the world,
-            second only to the default WordPress theme! The work we do has a huge footprint,
-            making building each project incredibly rewarding.</p>
+            <p>
+              Kitty scratches couch bad kitty. Knock over christmas tree poop on grasses or scratch the box so paw at your fat belly touch water with paw then recoil in horror. Kitten is playing with dead mouse stares at human while pushing stuff off a table or get video posted to internet for chasing red dot my slave human didn't give me any food so i pooped on the floor so fall asleep on the washing machine so pushes butt to face spend all night ensuring people don't sleep sleep all day.
+            </p>
           </div>
           <div class="column is-desktop">
             <strong>Company Culture</strong>
-            <p>Culture is an important part of our company, and we take pride in creating a working environment that is fun,
-            challenging, rewarding and inspiring for everyone involved.
-            We are a diverse group of people from around the world connected by a shared sense of purpose
-            to create products that push the boundaries of WordPress.</p>
+            <p>
+              Mrow burrow under covers, but toy mouse squeak roll over going to catch the red dot today going to catch the red dot today and man running from cops stops to pet cats, goes to jail please stop looking at your phone and pet me drink water out of the faucet. Get video posted to internet for chasing red dot howl on top of tall thing and licks paws bleghbleghvomit my furball really tie the room together. Cat slap dog in face human give me attention meow but Gate keepers of hell. 
+            </p>
           </div>
         </div>
       </div>
@@ -74,7 +68,29 @@
       </div>
     </section>
 
+    <section class="pictures">
+      <div class="container">
+        <div class="columns is-centered">
+          <span class="" v-for="n in 3">
+            <img class="column" :src="'https://www.elegantthemes.com/careers/images/careers-grid-img-' + n + '.jpg'" alt="about us">
+          </span>
+        </div>
+        <div class="columns is-centered">
+          <span class="" v-for="n in 2">
+            <img class="column" :src="'https://www.elegantthemes.com/careers/images/careers-grid-img-'+(n+3)+'.jpg'" alt="about us">
+          </span>
+        </div>
+      </div>
+    </section>
+
     <JobListings></JobListings>
+
+    <section class="has-text-centered">
+      <a href="http://www.sellsuki.co.th">www.sellsuki.co.th</a>
+      <br><br><br><br>
+    </section>
+
+    </div>
 
   </div>
 </template>
