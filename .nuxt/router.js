@@ -6,7 +6,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 
-const _611400f7 = process.BROWSER_BUILD ? () => System.import('/Users/n9ti/Working/sellsuki-careers/pages/index.vue') : require('/Users/n9ti/Working/sellsuki-careers/pages/index.vue')
+const _8f68f018 = process.BROWSER_BUILD ? () => System.import('C:\\Users\\fang\\Desktop\\Intern Project\\internship.io\\pages\\index.vue') : require('C:\\Users\\fang\\Desktop\\Intern Project\\internship.io\\pages\\index.vue')
 
 
 const scrollBehavior = (to, from, savedPosition) => {
@@ -33,13 +33,13 @@ export default new Router({
     
     {
       path: '/',
-      component: _611400f7,
+      component: _8f68f018,
       name: 'index'
     },
     
     {
       path: '/index',
-      component: _611400f7
+      component: _8f68f018
     }
     
   ]
