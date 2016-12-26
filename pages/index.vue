@@ -1,15 +1,18 @@
 <template>
   <div style="background-color: #ffffff;">
+    <img src="../static/internship_logo.png" alt="" width="200" height="300" style="    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);" >
     <section class="hero is-fullheight" id="app-header">
-        <div class="hero-body" >
-        <div class="container">
-          <h1 class="title is-1">
-            Join The Sellsuki Team
-          </h1>
-          <h2 class="subtitle is-3">
-            โอกาสหนึ่งครั้งของการฝึกงานต้องให้ประสบการณ์ที่ดีต่อการทำงานตลอดไป
-          </h2>
-          <a class="button is-large" @click="scrollTo()">View Open Positions</a>
+        <div class="hero-body" style="background-color: rgba(233, 99, 46, .6);">
+        <div class="container" style="top: 80%;
+    position: absolute;
+    left: 28%;
+    text-align: center;">
+          <span style="color:#ffffff;font-size: 25px;text-align: center;">
+            โอกาสหนึ่งครั้งของการฝึกงานต้องให้ประสบการณ์ที่ดีต่อการทำงาน<br>ตลอดไป
+          </span>
         </div>
       </div>
     </section>
@@ -17,7 +20,7 @@
     <section class="job-intro" style="width: 50%;margin:0 auto;">
       <div class="container">
         <div class="columns">
-          <div class="column is-desktop" style="    color: #222222;">
+          <div class="column is-desktop" style="color: #222222;">
             <h2 class="" style="font-size: 28px;text-align:center;">The Internship Program คืออะไร</h2>
             <p>
               The Internship 2016 เป็นโปรแกรมฝึกงานแห่งแรกที่มุ่งเน้นการสร้างผู้ประกอบการ นิสิตนักศึกษาที่ผ่านการคัดเลือกเข้าร่วมโครงการจะได้เพิ่มประสบการณ์ผ่านการทำงานจริงกับบริษัท
@@ -51,7 +54,7 @@
             </p>
           </div>
         </div>
-          <img src="http://theinternship.io/wp-content/uploads/2014/05/og.jpg" width="600" height="315" alt="" style="margin: 0 auto;display: block;">
+          <img src="http://theinternship.io/wp-content/uploads/2014/05/og.jpg" width="600" height="315" alt="" style="margin: 0 auto;display: block;padding-bottom: 30px;">
         </div>
     </section>
 
