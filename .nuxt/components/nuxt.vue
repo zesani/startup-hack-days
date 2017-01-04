@@ -10,7 +10,7 @@
 
 <script>
 import Vue from 'vue'
-import NuxtError from 'C:\\Users\\fang\\Desktop\\Intern Project\\internship.io\\node_modules\\nuxt\\lib\\app\\components\\nuxt-error.vue'
+import NuxtError from '/Users/n9ti/Working/theinternship.io/node_modules/nuxt/lib/app/components/nuxt-error.vue'
 import NuxtLoading from './nuxt-loading.vue'
 
 export default {
