@@ -1,16 +1,15 @@
 <template>
   <div>
     <nuxt-loading ref="loading"></nuxt-loading>
-    <transition :name="nuxt.transition.name" :mode="nuxt.transition.mode">
-      <router-view v-if="!nuxt.err"></router-view>
-      <nuxt-error v-if="nuxt.err" :error="nuxt.err"></nuxt-error>
-    </transition>
+    <nuxt-child v-if="!nuxt.err"></nuxt-child>
+    <nuxt-error v-if="nuxt.err" :error="nuxt.err"></nuxt-error>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
-import NuxtError from '/Users/n9ti/Working/theinternship.io/node_modules/nuxt/lib/app/components/nuxt-error.vue'
+import NuxtChild from './nuxt-child'
+import NuxtError from 'C:\\Users\\fang\\Desktop\\Project\\theinternship.io\\node_modules\\nuxt\\dist\\app\\components\\nuxt-error.vue'
 import NuxtLoading from './nuxt-loading.vue'
 
 export default {
@@ -23,6 +22,8 @@ export default {
     Vue.prototype.$nuxt = this
     // Add this.$root.$nuxt
     this.$root.$nuxt = this
+    // Bind $nuxt.setLayout(layout) to $root.setLayout
+    this.setLayout = this.$root.setLayout.bind(this.$root)
     // add to window so we can listen when ready
     if (typeof window !== 'undefined') {
       window.$nuxt = this
@@ -47,8 +48,9 @@ export default {
   },
   
   components: {
+    NuxtChild,
     NuxtError,
-		NuxtLoading
+    NuxtLoading
   }
 }
 </script>

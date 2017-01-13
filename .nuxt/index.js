@@ -4,12 +4,15 @@ import Vue from 'vue'
 import Meta from 'vue-meta'
 import router from './router.js'
 
-import NuxtContainer from './components/nuxt-container.vue'
+import NuxtChild from './components/nuxt-child.js'
+import NuxtLink from './components/nuxt-link.js'
 import Nuxt from './components/nuxt.vue'
 import App from './App.vue'
 
-// Component: <nuxt-container>
-Vue.component(NuxtContainer.name, NuxtContainer)
+// Component: <nuxt-child>
+Vue.component(NuxtChild.name, NuxtChild)
+// Component: <nuxt-link>
+Vue.component(NuxtLink.name, NuxtLink)
 // Component: <nuxt>
 Vue.component(Nuxt.name, Nuxt)
 
@@ -20,6 +23,15 @@ Vue.use(Meta, {
   ssrAttribute: 'n-head-ssr', // the attribute name that lets vue-meta know that meta info has already been server-rendered
   tagIDKeyName: 'hid' // the property name that vue-meta uses to determine whether to overwrite or append a tag
 })
+
+if (process.BROWSER_BUILD) {
+  // window.onNuxtReady(() => console.log('Ready')) hook
+  // Useful for jsdom testing or plugins (https://github.com/tmpvar/jsdom#dealing-with-asynchronous-script-loading)
+  window._nuxtReadyCbs = []
+  window.onNuxtReady = function (cb) {
+    window._nuxtReadyCbs.push(cb)
+  }
+}
 
 // Includes external plugins
 
@@ -32,16 +44,24 @@ const app = {
   router,
   
   _nuxt: {
-    transition: Object.assign({}, defaultTransition),
-    setTransition (transition) {
-      if (!transition) {
-        transition = defaultTransition
-      } else if (typeof transition === 'string') {
-        transition = Object.assign({}, defaultTransition, { name: transition })
+    defaultTransition: defaultTransition,
+    transitions: [ defaultTransition ],
+    setTransitions (transitions) {
+      if (!Array.isArray(transitions)) {
+        transitions = [ transitions ]
       }
-      this.$options._nuxt.transition.name = transition.name
-      this.$options._nuxt.transition.mode = transition.mode
-      return transition
+      transitions = transitions.map((transition) => {
+        if (!transition) {
+          transition = defaultTransition
+        } else if (typeof transition === 'string') {
+          transition = Object.assign({}, defaultTransition, { name: transition })
+        } else {
+          transition = Object.assign({}, defaultTransition, transition)
+        }
+        return transition
+      })
+      this.$options._nuxt.transitions = transitions
+      return transitions
     },
     err: null,
     error (err) {

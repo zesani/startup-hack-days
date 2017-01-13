@@ -1,6 +1,7 @@
 'use strict'
 
 const debug = require('debug')('nuxt:render')
+debug.color = 4 // force blue color
 import Vue from 'vue'
 import { stringify } from 'querystring'
 import { omit } from 'lodash'
@@ -55,8 +56,8 @@ export default context => {
   
   return promise
   .then(() => {
-    // Call data & fetch hooks on components matched by the route.
-    return Promise.all(Components.map((Component) => {
+    // Sanitize Components
+    Components = Components.map((Component) => {
       let promises = []
       if (!Component.options) {
         Component = Vue.extend(Component)
@@ -65,6 +66,34 @@ export default context => {
         Component._Ctor = Component
         Component.extendOptions = Component.options
       }
+      return Component
+    })
+    // Set layout
+    return _app.setLayout(Components.length ? Components[0].options.layout : '')
+  })
+  .then(() => {
+    // Call .validate()
+    let isValid = true
+    Components.forEach((Component) => {
+      if (!isValid) return
+      if (typeof Component.options.validate !== 'function') return
+      isValid = Component.options.validate({
+        params: context.route.params || {},
+        query: context.route.query || {}
+      })
+    })
+    if (!isValid) {
+      // Don't server-render the page in generate mode
+      if (context._generate) {
+        context.nuxt.serverRendered = false
+      }
+      // Call the 404 error by making the Components array empty
+      Components = []
+      return _app
+    }
+    // Call data & fetch hooks on components matched by the route.
+    return Promise.all(Components.map((Component) => {
+      let promises = []
       const ctx = getContext(context)
       if (Component.options.data && typeof Component.options.data === 'function') {
         Component._data = Component.options.data
@@ -100,6 +129,9 @@ export default context => {
     return _app
   })
   .catch(function (error) {
+    if (error && error instanceof Error) {
+      error = { statusCode: 500, message: error.message }
+    }
     context.nuxt.error = context.error(error)
     
     return _app
