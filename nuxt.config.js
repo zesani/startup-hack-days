@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', content: "The Internship 2017" },
       { property: 'og:url', content: 'http://theinternship.io' },
       { property: 'og:title', content: 'The Internship 2017' },
-      { property: 'og:image', content: 'http://theinternship.io/og.jpg' }
+      { property: 'og:image', content: 'http://www.theinternship.io.s3-website-ap-southeast-1.amazonaws.com/og.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
