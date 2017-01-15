@@ -8,7 +8,7 @@
             <h1 class="title">Designer</h1>
             <h1>UX Designer, Graphic Designer</h1>
             <br>
-            <a class="button is-danger">สมัครเลย</a>
+            <a class="button is-danger">18 ม.ค. 2560</a>
           </div>
         </div>
         <div class="column">
@@ -17,7 +17,7 @@
             <h1 class="title">Developer</h1>
             <h1>Programmer, Tester</h1>
             <br>
-            <a class="button is-danger">สมัครเลย</a>
+            <a class="button is-danger">18 ม.ค. 2560</a>
           </div>
         </div>
         <div class="column">
@@ -26,7 +26,7 @@
             <h1 class="title">Business</h1>
             <h1>Marketing, Sale, Project Management</h1>
             <br>
-            <a class="button is-danger">สมัครเลย</a>
+            <a class="button is-danger">18 ม.ค. 2560</a>
           </div>
         </div>
       </div>
