@@ -7,12 +7,12 @@
 <script>
 let layouts = {
 
-  "_default": process.BROWSER_BUILD ? () => System.import('C:\\Users\\fang\\Desktop\\Project\\theinternship.io\\node_modules\\nuxt\\dist\\app\\layouts\\default.vue') : require('C:\\Users\\fang\\Desktop\\Project\\theinternship.io\\node_modules\\nuxt\\dist\\app\\layouts\\default.vue')
+  "_default": process.BROWSER_BUILD ? () => System.import('/Users/n9ti/Working/theinternship.io/layouts/default.vue') : require('/Users/n9ti/Working/theinternship.io/layouts/default.vue')
 
 }
 
 export default {
-  head: {"title":"Careers | Sellsuki","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"},{"hid":"description","content":"Careers at Sellsuki"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"}]},
+  head: {"title":"starter","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","content":"Nuxt.js project"}],"link":[{"rel":"icon","type":"image/x-icon","href":"favicon.ico"}]},
   data: () => ({
     layout: null,
     layoutName: ''
@@ -47,5 +47,5 @@ export default {
 </script>
 
 
-<style src="~assets/bulma.css" lang="css"></style>
+<style src="~assets/css/main.css" lang="css"></style>
 
