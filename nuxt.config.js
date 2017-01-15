@@ -8,7 +8,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', content: "The Internship 2017" },
-      { property: 'og:url', content: 'http://theinternship.io' },
+      { property: 'og:url', content: 'http://www.theinternship.io.s3-website-ap-southeast-1.amazonaws.com' },
       { property: 'og:title', content: 'The Internship 2017' },
       { property: 'og:image', content: 'http://www.theinternship.io.s3-website-ap-southeast-1.amazonaws.com/og.jpg' }
     ],
