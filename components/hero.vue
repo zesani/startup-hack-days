@@ -38,7 +38,7 @@
         <img src="../static/intern-logo.png" alt="" class="hero-logo">
         <br><br><br>
         <h1 class="title">
-          โอกาสหนึ่งครั้งของการฝึกงานต้องให้ประสบการณ์ที่ดีต่อการทำงานตลอดไป
+          โอกาสหนึ่งครั้งของการฝึกงาน ต้องให้ประสบการณ์ที่ดีต่อการทำงานตลอดไป
         </h1>
         <!-- <h2 class="subtitle">
           Subtitle
@@ -57,7 +57,7 @@ export default {
 <style lang="css">
 #hero.hero {
   background-size: cover;
-  background-image: url('/bg.png');
+  background-image: url('/bg.jpg');
 }
 .hero-head .nav {
   min-height: 100px !important;
