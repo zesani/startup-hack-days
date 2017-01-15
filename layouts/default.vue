@@ -13,6 +13,7 @@ export default {
 
 <style lang="scss">
 $success: #333B4A;
+$primary: #c1d9e5;
 
 @import "~bulma";
 

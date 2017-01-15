@@ -1,5 +1,5 @@
 <template lang="html">
-  <section id="hero" class="hero is-success is-fullheight">
+  <section id="hero" class="hero is-primary is-fullheight">
     <!-- Hero header: will stick at the top -->
     <!-- <div class="hero-head">
       <header class="nav">
@@ -63,7 +63,7 @@ export default {
   min-height: 100px !important;
 }
 .hero-head .nav .nav-item img {
-    max-height: 100px;
+  max-height: 100px;
 }
 .hero-logo {
   height: 200px;

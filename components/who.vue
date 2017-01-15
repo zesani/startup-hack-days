@@ -1,7 +1,10 @@
 <template lang="html">
   <section class="section">
     <div class="container">
-      ใครมาบ้าง
+      <div class="heading has-text-centered">
+        <h1 class="title">ใครมาบ้าง</h1>
+      </div>
+      <br><br>
       <div class="columns is-multiline">
         <div class="column is-one-third-desktop is-half-tablet">
             <div class="" style="width:100%;border:2px solid #DFDFDF;">
