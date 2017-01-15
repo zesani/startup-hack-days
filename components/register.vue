@@ -5,28 +5,34 @@
         <div class="column">
           <div class="card">
             <img src="../static/designer.jpg" alt="">
-            <h1 class="title">Designer</h1>
-            <h1>UX Designer, Graphic Designer</h1>
-            <br>
-            <a class="button is-danger">18 ม.ค. 2560</a>
+            <div class="card-detail">
+              <h1 class="title">Designer</h1>
+              <h1>UX Designer, Graphic Designer</h1>
+              <br>
+              <a class="button is-danger">18 ม.ค. 2560</a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
             <img src="../static/dev.jpg" alt="">
-            <h1 class="title">Developer</h1>
-            <h1>Programmer, Tester</h1>
-            <br>
-            <a class="button is-danger">18 ม.ค. 2560</a>
+            <div class="card-detail">
+              <h1 class="title">Developer</h1>
+              <h1>Programmer, Tester</h1>
+              <br>
+              <a class="button is-danger">18 ม.ค. 2560</a>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
             <img src="../static/biz.jpg" alt="">
-            <h1 class="title">Business</h1>
-            <h1>Marketing, Sale, Project Management</h1>
-            <br>
-            <a class="button is-danger">18 ม.ค. 2560</a>
+            <div class="card-detail">
+              <h1 class="title">Business</h1>
+              <h1>Marketing, Sale, Project Management</h1>
+              <br>
+              <a class="button is-danger">18 ม.ค. 2560</a>
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +66,14 @@ export default {
 .card img {
   height: 160px;
   float: left;
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+}
+.card .card-detail {
+  margin-left: 90px;
+}
+.card .card-detail a {
+  position: absolute;
+  bottom: 20px;
 }
 .is-background {
   background-color: #333B4A !important;
