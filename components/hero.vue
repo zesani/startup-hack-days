@@ -35,7 +35,7 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <img src="../static/intern-logo.png" alt="" class="hero-logo">
+        <img src="../static/intern-logo-white.png" alt="" class="hero-logo">
         <br><br><br>
         <h1 class="title">
           โอกาสหนึ่งครั้งของการฝึกงาน ต้องให้ประสบการณ์ที่ดีต่อการทำงานตลอดไป
@@ -57,7 +57,7 @@ export default {
 <style lang="css">
 #hero.hero {
   background-size: cover;
-  background-image: url('/bg.jpg');
+  background-image: url('/b-g.jpg');
 }
 .hero-head .nav {
   min-height: 100px !important;
