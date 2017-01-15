@@ -1,10 +1,6 @@
 <template lang="html">
   <section class="section is-background">
     <div class="container">
-      <div class="has-text-centered">
-        <h1 class="title color-white">สมัคร</h1>
-      </div>
-      <br><br>
       <div class="columns">
         <div class="column">
           <div class="card">
@@ -74,6 +70,11 @@
           </div>
         </div> -->
       </div>
+      <br>
+      <div class="has-text-centered">
+        <h1 class="title color-white">* ผู้สมัครสามารถเลือกสมัครได้ 1 ตำแหน่งเท่านั้น มิเช่นนั้นจะถูกตัดสิทธิ์</h1>
+      </div>
+
     </div>
 
   </section>

@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <div class="heading has-text-centered">
-        <h1 class="title">ใครมาบ้าง</h1>
+        <h1 class="title">ใครมาบ้าง / Participating Startups</h1>
       </div>
       <br><br>
       <div class="columns is-multiline">
