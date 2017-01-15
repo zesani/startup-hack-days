@@ -1,6 +1,6 @@
-# sellsuki-careers
+# theinternship.io
 
-> Nuxt.js project
+> theinternship.io
 
 ## Build Setup
 
