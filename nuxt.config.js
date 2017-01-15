@@ -7,7 +7,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', content: "Nuxt.js project" }
+      { hid: 'description', content: "The Internship 2017" },
+      { property: 'og:url', content: 'http://theinternship.io' },
+      { property: 'og:title', content: 'The Internship 2017' },
+      { property: 'og:image', content: 'http://theinternship.io/og.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
