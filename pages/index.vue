@@ -6,6 +6,7 @@
     <when></when>
     <register></register>
     <who></who>
+    <footer-section></footer-section>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Why from '../components/why.vue'
 import When from '../components/when.vue'
 import Who from '../components/who.vue'
 import Register from '../components/register.vue'
+import FooterSection from '../components/footer.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Why,
     When,
     Register,
-    Who
+    Who,
+    FooterSection
   }
 }
 </script>
