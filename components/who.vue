@@ -119,6 +119,35 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <img src="../static/bill-me.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -42px 0px 0px -141px;">
+            </div>
+            <div class="" style="box-sizing:border-box;padding:20px;">
+              <span class="list-company">
+                Billme (บิลมี) แพลทฟอร์มสำหรับรับและส่งดิจิทัลบิล (ใบเรียกเก็บเงินดิจัทัล) พร้อมด้วยโมบายแอปพลิเคชั่น Billme ทำให้การรับและส่งบิล การขอให้จ่ายเงิน
+                เป็นเรื่องง่ายสำหรับทุกคน ไม่ว่าจะเป็นการส่งคำขอให้เพื่อนจ่ายเงินเรา เพื่อเตือนตัวเองในการจ่ายบิล หรือเพื่อรับบิลและใบเสร็จรับเงินจากร้านค้าและบริการต่างๆ เรามุ่งมั่นที่จะเป็นส่วนสำคัญในวัฒนธรรมการเงินดิจิทัล
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third-desktop is-half-tablet ">
+          <div class="partner">
+            <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <img src="../static/cookly.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -48px 0px 0px -141px;">
+            </div>
+            <div class="" style="box-sizing:border-box;padding:20px;">
+              <span class="list-company">
+                Cookly เป็นแพลตฟอร์มชั้นนำสำหรับการจองชั้นเรียนทำอาหาร เรานำคนรักอาหารและผู้เชี่ยวชาญด้านอาหารร่วมสนุกกับการเรียนทำอาหารที่เปี่ยมคุณภาพทั่วโลก
+                ภารกิจของเราคือการทำให้การเรียนทำอาหารเป็นกิจกรรมที่ต้องทำเมื่อคนรักอาหารออกเดินทาง
+                เราได้ทำหน้าที่มอบความอร่อยแก่นักท่องเที่ยวจากกว่า 50 + ประเทศทั่วโลก และเรากำลังนำเสนอชั้นเรียนมากกว่า 200 อย่างใน 5 ประเทศ และกำลังเดินหน้าสู่ระดับโลก
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third-desktop is-half-tablet ">
+          <div class="partner">
+            <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
               <img src="../static/horganice.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -33px 0px 0px -145px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">

@@ -38,7 +38,7 @@
         <img src="../static/intern-logo-white.png" alt="" class="hero-logo">
         <br><br><br>
         <h1 class="title">
-          โอกาสหนึ่งครั้งของการฝึกงาน ต้องให้ประสบการณ์ที่ดีต่อการทำงานตลอดไป
+          โอกาสหนึ่งครั้งของการฝึกงานต้องให้ประสบการณ์ที่ดี<br>ต่อการทำงานตลอดไป
         </h1>
         <!-- <h2 class="subtitle">
           Subtitle
