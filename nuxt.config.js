@@ -18,6 +18,9 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
       { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' }
+    ],
+    script: [
+      { type: 'text/javascript', src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-587cfe06623014f7' }
     ]
   },
   /*
