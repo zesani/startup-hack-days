@@ -14,9 +14,11 @@ export default {
 <style lang="sass">
 $success: #333B4A
 $primary: #c1d9e5
-
 @import "~bulma"
+</style>
 
-p
+<style>
+p {
   font-size: 20px
+}
 </style>
