@@ -11,14 +11,13 @@ export default {
 }
 </script>
 
-<style lang="sass">
-$success: #333B4A
-$primary: #c1d9e5
-@import "~bulma"
-</style>
+<style lang="scss">
+$success: #333B4A;
+$primary: #c1d9e5;
 
-<style>
+@import "~bulma";
+
 p {
-  font-size: 20px
+  font-size: 20px;
 }
 </style>
