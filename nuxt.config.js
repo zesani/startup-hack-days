@@ -8,7 +8,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'theme-color', content: '#29211F' },
-      { hid: 'description', content: "The Internship 2017" },
+      { hid: 'description', content: 'The Internship 2017' },
       { property: 'og:url', content: 'http://www.theinternship.io' },
       { property: 'og:title', content: 'The Internship Program ที่สุดของประสบการณ์ฝึกงานกับ Startup ชั้นแนวหน้าของเมืองไทย' },
       { property: 'og:image', content: 'http://www.theinternship.io/og.jpg' },
@@ -29,6 +29,7 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   plugins: [
-    '~plugins/ga.js'
+    '~plugins/ga.js',
+    '~plugins/hotjar.js'
   ]
 }
