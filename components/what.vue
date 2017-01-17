@@ -28,4 +28,7 @@ p {
   font-size: 18px;
   text-align: justify;
 }
+h1 {
+  font-family:rsu-bold;
+}
 </style>

@@ -29,5 +29,8 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+h1.title {
+  font-family: rsu-bold;
+}
 </style>

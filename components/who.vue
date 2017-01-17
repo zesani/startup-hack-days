@@ -10,6 +10,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle"></div>
               <img src="../static/sellsuki.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -28,6 +29,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #b3363f;"></div>
               <img src="../static/code-app.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -43,6 +45,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+                <div class="triangle" style="    border-top: 20.3px solid #333333;"></div>
               <img src="../static/fiveloop.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -57,6 +60,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #74c9de;"></div>
               <img src="../static/rgb-72.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -72,6 +76,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #d32053;"></div>
               <img src="../static/pollios.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -87,6 +92,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #ff672b;"></div>
               <img src="../static/wongnai.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -60px 0px 0px -145px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -102,6 +108,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #ffd508;"></div>
               <img src="../static/claim-di.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -95px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -119,6 +126,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #00abe5;"></div>
               <img src="../static/bill-me.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -42px 0px 0px -141px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -133,6 +141,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #26b9ae;"></div>
               <img src="../static/cookly.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -48px 0px 0px -141px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -148,6 +157,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #fa7500;"></div>
               <img src="../static/horganice.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -33px 0px 0px -145px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -162,6 +172,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #8cc63f;"></div>
               <img src="../static/i-tax.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -50px 0px 0px -135px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -177,6 +188,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #00add8;"></div>
               <img src="../static/peakengine.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -80px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -191,6 +203,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #040707;"></div>
               <img src="../static/jeban.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -140px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -208,6 +221,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #c8273f;"></div>
               <img src="../static/pi-r-2.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -85px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -222,6 +236,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #000000;"></div>
               <img src="../static/bit-studio.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -65px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -236,6 +251,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #000000;"></div>
               <img src="../static/fire-one-one.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -142px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -251,6 +267,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle" style="    border-top: 20.3px solid #e77f27;"></div>
               <img src="../static/market-anyware.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -94px;">
             </div>
             <div class="" style="box-sizing:border-box;padding:20px;">
@@ -277,5 +294,11 @@ export default {
   border:0px solid #DFDFDF;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 1px;
   border-radius: 3px;
+}
+.triangle {
+  	width: 0;
+    height: 0;
+    border-top: 20.3px solid #f9a021;
+    border-right: 20.3px solid transparent;
 }
 </style>

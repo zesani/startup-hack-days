@@ -54,7 +54,11 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+
+h1.title {
+  font-family: rsu-regular;
+}
 #hero.hero {
   background-size: cover;
   background-image: url('/b-g.jpg');

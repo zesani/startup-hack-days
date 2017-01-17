@@ -33,4 +33,20 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+    font-family: rsu-bold;
+    src: url('../static/fonts/RSU-Bold.eot');
+    src: url('../static/fonts/RSU-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../static/fonts/RSU-Bold.ttf') format('truetype'),
+         url('../static/fonts/RSU-Bold.woff') format('woff'),
+         url('../static/fonts/RSU-Bold.svg#rsu-bold') format('svg');
+}
+@font-face {
+    font-family: rsu-regular;
+    src: url('../static/fonts/RSU.eot');
+    src: url('../static/fonts/RSU.eot?#iefix') format('embedded-opentype'),
+         url('../static/fonts/RSU.woff') format('woff'),
+         url('../static/fonts/RSU.ttf') format('truetype'),
+         url('../static/fonts/RSU.svg#rsu-regular') format('svg');
+}
 </style>
