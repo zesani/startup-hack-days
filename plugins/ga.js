@@ -6,7 +6,7 @@ if (process.BROWSER_BUILD && process.env.NODE_ENV === 'production') {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   // Set the current page
-  ga('create', 'UA-88662854-1', 'auto')
+  ga('create', 'UA-73797494-1', 'auto')
   ga('send', 'pageview')
   // When the app is mounted
   window.onNuxtReady((app) => {
