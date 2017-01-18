@@ -10,25 +10,6 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle"></div>
-              <img src="../static/sellsuki.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
-            </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
-              <span class="list-company">
-                Sellsuki ระบบบริหารร้านค้าออนไลน์ที่ถูกออกแบบมาสำหรับการค้าขายในยุคของการสื่อสารผ่านแชทและการค้าขายผ่านหลายช่องทาง
-                 ทั้งทางเว็บไซต์ โซเชียล หรือหน้าร้าน
-                 <br><br>
-                  เรามีความเชื่อว่า<br>
-                1) เทคโนโลยีจะทำให้อนาคตของการค้าขายกลับมามีความเป็นมนุษย์<br>
-                2) การใช้แนวคิดทางธุรกิจ เทคโนโลยีและดีไซน์ ไปพร้อมๆกันจะนำไปสู่การออกแบบที่ถาวร<br>
-                3) ผู้ประกอบการควรมีความอิสระในการประกอบการ และไม่ควรใช้เวลาอยู่กับงานที่ซ้ำซากและจำเจ</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third-desktop is-half-tablet">
-          <div class="partner">
-            <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
               <div class="triangle" style="    border-top: 20.3px solid #b3363f;"></div>
               <img src="../static/code-app.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
             </div>
@@ -101,6 +82,25 @@
                 โดยมีข้อมูลของสถานที่ทั้งที่อยู่ เบอร์โทรศัพท์ แผนที่ พร้อมทั้งรีวิวจากผู้ใช้งานจริงที่จะช่วยคุณในการตัดสินใจเลือกใช้บริการ
                 นอกจากนี้ยังมีบริการสั่งอาหาร Delivery เพื่อตอบสนองชีวิตที่เร่งรีบของคนรุ่นใหม่อีกด้วย
               </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third-desktop is-half-tablet">
+          <div class="partner">
+            <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
+              <div class="triangle"></div>
+              <img src="../static/sellsuki.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
+            </div>
+            <div class="" style="box-sizing:border-box;padding:20px;">
+              <span class="list-company">
+                Sellsuki ระบบบริหารร้านค้าออนไลน์ที่ถูกออกแบบมาสำหรับการค้าขายในยุคของการสื่อสารผ่านแชทและการค้าขายผ่านหลายช่องทาง
+                 ทั้งทางเว็บไซต์ โซเชียล หรือหน้าร้าน
+                 <br><br>
+                  เรามีความเชื่อว่า<br>
+                1) เทคโนโลยีจะทำให้อนาคตของการค้าขายกลับมามีความเป็นมนุษย์<br>
+                2) การใช้แนวคิดทางธุรกิจ เทคโนโลยีและดีไซน์ ไปพร้อมๆกันจะนำไปสู่การออกแบบที่ถาวร<br>
+                3) ผู้ประกอบการควรมีความอิสระในการประกอบการ และไม่ควรใช้เวลาอยู่กับงานที่ซ้ำซากและจำเจ</span>
             </div>
           </div>
         </div>
