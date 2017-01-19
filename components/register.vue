@@ -83,7 +83,7 @@ export default {
   bottom: 20px;
 }
 .is-background {
-  background-color: rgba(89,49,181,1) !important;
+  background-color: #3A5FD7 !important;
 }
 .color-white {
   color: #FFF !important;

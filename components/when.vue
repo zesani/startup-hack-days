@@ -67,4 +67,7 @@ export default {
 h1.title {
   font-family: rsu-bold;
 }
+table {
+  font-size: 18px;
+}
 </style>
