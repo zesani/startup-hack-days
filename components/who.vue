@@ -1,16 +1,20 @@
 <template lang="html">
   <section class="section">
+    <br>
+    <br>
     <div class="container">
       <div class="heading has-text-centered">
         <h1 class="title">ใครมาบ้าง / Participating Startups</h1>
       </div>
-      <br><br>
+      <br>
+      <br>
+      <br>
       <div class="columns is-multiline">
 
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #000000;"></div>
+              <div class="triangle" style="border-top: 40px solid #000000;"></div>
               <a href="http://fireoneone.com/" target="_blank">
                 <img src="../static/fire-one-one.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -142px;">
               </a>
@@ -28,7 +32,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #b3363f;"></div>
+              <div class="triangle" style="    border-top: 40px solid #b3363f;"></div>
               <a>
                 <img src="../static/code-app.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
               </a>
@@ -46,7 +50,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #333333;"></div>
+              <div class="triangle" style="    border-top: 40px solid #333333;"></div>
               <a href="http://www.fiveloop.co/" target="_blank">
                 <img src="../static/fiveloop.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
               </a>
@@ -63,7 +67,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #74c9de;"></div>
+              <div class="triangle" style="    border-top: 40px solid #74c9de;"></div>
               <a href="http://www.rgb72.com/" target="_blank">
                 <img src="../static/rgb-72.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
               </a>
@@ -81,7 +85,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #d32053;"></div>
+              <div class="triangle" style="    border-top: 40px solid #d32053;"></div>
               <a href="http://pollios.com/" target="_blank">
                 <img src="../static/pollios.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
               </a>
@@ -99,7 +103,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #ff672b;"></div>
+              <div class="triangle" style="border-top: 40px solid #ff672b;"></div>
               <a href="https://www.wongnai.com/" target="_blank">
                 <img src="../static/wongnai.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -60px 0px 0px -145px;">
               </a>
@@ -117,7 +121,7 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle"></div>
+              <div class="triangle" style="border-top: 40px solid #FF672B;"></div>
               <a href="http://www.sellsuki.co.th/" target="_blank">
                 <img src="../static/sellsuki.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
               </a>
@@ -138,7 +142,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #ffd508;"></div>
+              <div class="triangle" style="    border-top: 40px solid #ffd508;"></div>
               <a href="http://claimdi.com/news/" target="_blank">
                 <img src="../static/claim-di.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -95px;">
               </a>
@@ -158,7 +162,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #00abe5;"></div>
+              <div class="triangle" style="    border-top: 40px solid #00abe5;"></div>
               <a href="https://www.billme.co.th" target="_blank">
                 <img src="../static/bill-me.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -42px 0px 0px -141px;">
               </a>
@@ -175,7 +179,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #26b9ae;"></div>
+              <div class="triangle" style="    border-top: 40px solid #26b9ae;"></div>
               <a href="https://www.cookly.me" target="_blank">
                 <img src="../static/cookly.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -48px 0px 0px -141px;">
               </a>
@@ -193,7 +197,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #fa7500;"></div>
+              <div class="triangle" style="    border-top: 40px solid #fa7500;"></div>
               <a href="https://www.horganice.in.th/" target="_blank">
                 <img src="../static/horganice.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -33px 0px 0px -145px;">
               </a>
@@ -210,7 +214,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #8cc63f;"></div>
+              <div class="triangle" style="    border-top: 40px solid #8cc63f;"></div>
               <a href="https://www.itax.in.th/" target="_blank">
                 <img src="../static/i-tax.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -50px 0px 0px -135px;">
               </a>
@@ -228,7 +232,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #00add8;"></div>
+              <div class="triangle" style="    border-top: 40px solid #00add8;"></div>
               <a href="https://peakengine.com/" target="_blank">
                 <img src="../static/peakengine.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -80px;">
               </a>
@@ -245,7 +249,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #040707;"></div>
+              <div class="triangle" style="    border-top: 40px solid #040707;"></div>
               <a href="http://www.jeban.com/" target="_blank">
                 <img src="../static/jeban.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -140px;">
               </a>
@@ -265,7 +269,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #c8273f;"></div>
+              <div class="triangle" style="    border-top: 40px solid #c8273f;"></div>
               <a href="http://www.pirsquare.net/" target="_blank">
                 <img src="../static/pi-r-2.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -85px;">
               </a>
@@ -282,7 +286,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #000000;"></div>
+              <div class="triangle" style="    border-top: 40px solid #000000;"></div>
               <a href="http://www.thebitstudio.com/" target="_blank">
                 <img src="../static/bit-studio.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -65px;">
               </a>
@@ -299,7 +303,7 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="" style="height:200px;background-color: #f1f1f1;position:relative;">
-              <div class="triangle" style="    border-top: 20.3px solid #e77f27;"></div>
+              <div class="triangle" style="    border-top: 40px solid #e77f27;"></div>
               <a href="http://marketanyware.com/th/index.html" target="_blank">
                 <img src="../static/market-anyware.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -94px;">
               </a>
@@ -314,6 +318,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </section>
 </template>
 
@@ -322,17 +328,19 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+h1.title {
+  font-family: rsu-bold;
+}
 .partner {
   width:100%;
   border:0px solid #DFDFDF;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 1px;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
 }
 .triangle {
   	width: 0;
     height: 0;
-    border-top: 20.3px solid #f9a021;
-    border-right: 20.3px solid transparent;
+    border-right: 40px solid transparent;
 }
 </style>

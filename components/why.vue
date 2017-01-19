@@ -1,5 +1,7 @@
 <template lang="html">
   <section class="hero is-success">
+    <br>
+    <br>
     <div class="hero-body">
       <div class="container">
         <div class="heading has-text-centered">
@@ -21,6 +23,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </section>
 </template>
 

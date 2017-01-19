@@ -1,5 +1,7 @@
 <template lang="html">
   <section class="section">
+    <br>
+    <br>
     <div class="container has-text-centered">
       <div class="heading has-text-centered">
         <h1 class="title">The Internship Program</h1>
@@ -14,6 +16,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </section>
 </template>
 

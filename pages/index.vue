@@ -6,8 +6,8 @@
     <when></when>
     <register></register>
     <who></who>
-    <footer-section></footer-section>
     <faq></faq>
+    <footer-section></footer-section>
   </div>
 </template>
 

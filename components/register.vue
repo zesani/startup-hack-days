@@ -1,5 +1,9 @@
 <template lang="html">
   <section class="section is-background">
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -42,7 +46,10 @@
       </div>
 
     </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
   </section>
 </template>
 
@@ -76,7 +83,7 @@ export default {
   bottom: 20px;
 }
 .is-background {
-  background-color: #333B4A !important;
+  background-color: rgba(89,49,181,1) !important;
 }
 .color-white {
   color: #FFF !important;

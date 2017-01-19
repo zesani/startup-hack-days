@@ -1,5 +1,7 @@
 <template lang="html">
   <section class="section">
+    <br>
+    <br>
     <div class="container">
       <div class="heading has-text-centered">
         <h1 class="title">กำหนดการ</h1>
@@ -51,6 +53,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </section>
 </template>
 
@@ -59,6 +63,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="css" scoped>
+h1.title {
+  font-family: rsu-bold;
+}
 </style>

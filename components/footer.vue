@@ -24,8 +24,11 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .icon {
-  color: #256582 !important;
+  color: rgba(26,142,250,1) !important;
+}
+p {
+  font-family: rsu-bold;
 }
 </style>
