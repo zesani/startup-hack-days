@@ -7,6 +7,7 @@
     <register></register>
     <who></who>
     <faq></faq>
+    <photos></photos>
     <footer-section></footer-section>
   </div>
 </template>
@@ -20,6 +21,7 @@ import Who from '../components/who.vue'
 import Register from '../components/register.vue'
 import FooterSection from '../components/footer.vue'
 import Faq from '../components/faq.vue'
+import Photos from '../components/photos.vue'
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     Register,
     Who,
     FooterSection,
-    Faq
+    Faq,
+    Photos
   }
 }
 </script>
