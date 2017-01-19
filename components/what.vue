@@ -28,7 +28,6 @@ export default {
 
 <style lang="css" scoped>
 p {
-  font-family: OpenSans;
   font-size: 18px;
   text-align: justify;
 }
