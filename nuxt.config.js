@@ -10,9 +10,9 @@ module.exports = {
       { name: 'theme-color', content: '#29211F' },
       { hid: 'description', content: "The Internship 2017" },
       { property: 'og:url', content: 'http://www.theinternship.io' },
-      { property: 'og:title', content: 'The Internship Program ที่สุดของประสบการณ์ฝึกงานกับ Startup ชั้นแนวหน้าของเมืองไทย' },
+      { property: 'og:title', content: 'The Internship Program ที่สุดของประสบการณ์ฝึกงานกับ Startup' },
       { property: 'og:image', content: 'http://www.theinternship.io/og.jpg' },
-      { property: 'og:description', content: 'โครงการที่เปิดโอกาสให้นักศึกษา ได้มีโอกาสร่วมงานกับ Tech Startup ชั้นแนวหน้าของไทย กว่าสิบบริษัท โดยจะมีตำแหน่งงานให้เรียนรู้รอบด้าน ไม่ว่าจะเป็น Developer, Tester, Quality Assurance, Graphic Designer, User Experience Design, Product Owner' },
+      { property: 'og:description', content: 'The Internship Program โครงการที่เปิดโอกาสให้นักศึกษา ได้มีโอกาสฝึกงานกับ Tech Startup ชั้นแนวหน้าของไทย ไม่ว่าจะเป็น Developer, Designer หรือ Business เปิดรับสมัคร วันนี้ - 15 กุมพาพันธ์ 2560' },
       { property: 'og:type', content: 'website' }
     ],
     link: [
