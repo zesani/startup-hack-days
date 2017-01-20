@@ -316,6 +316,24 @@
             </div>
           </div>
         </div>
+
+        <div class="column is-one-third-desktop is-half-tablet ">
+          <div class="partner">
+            <div class="logo-box">
+              <div class="triangle" style="border-top-color: #9AD2E4;"></div>
+              <a href="http://theairic.com/" target="_blank">
+                <img src="../static/DigitalAir.png" class="center-logos" alt="marketanyware" style="margin: -80px 0px 0px -94px;">
+              </a>
+            </div>
+            <div class="box-textbox" style="">
+              <span class="list-company">
+                ปิดประตูสู่อนาคตของการเล่าเรื่องทางสังคม
+                เราเป็นครอบครัวที่ขับเคลื่อนด้วยความหลงใหลที่อยากจะแบ่งปันประสบการณ์ที่สั่งสมมานานในวงการโฆษณาและอุตสาหกรรมความคิดสร้างสรรค์ กับการทำงานที่กว้างขวางของผู้เชี่ยวชาญชั้นนำระดับโลก และมีวิสัยทัศน์ในการวิจัยเทคโนโลยีการผสมความเป็นจริง, AI เครือข่ายประสาท, วิเคราะห์ข้อมูลขนาดใหญ่และ การนำเกมเข้ามาใช้เป็นเครื่องมือทางการตลาด
+                เราปฏิวัติการปฏิสัมพันธ์ของมนุษย์ผ่านงานศิลปะจากประสบการณ์เสมือนจริง โดยการเชื่อมต่อผู้คน, สถานที่, สิ่งที่อยู่ในจำนวนการใช้งานใหม่ และ การใช้งานที่คุณยังนึกไม่ถึงมาก่อน"
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <br>
