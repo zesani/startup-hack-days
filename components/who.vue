@@ -14,12 +14,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="border-top: 40px solid #000000;"></div>
+              <div class="triangle" style="border-top-color: #000000;"></div>
               <a href="http://fireoneone.com/" target="_blank">
-                <img src="../static/fire-one-one.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -142px;">
+                <img src="../static/fire-one-one.png" alt="fireoneone" class="center-logos" style="margin: -75px 0px 0px -142px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Fire one one ด้วยหลักการที่นำ ดีไซน์ และ เทคโนโลยี มาปรับใช้กับยุคเศรษฐกิจใหม่ ที่ผ่านมาไฟร์วันวันได้ช่วยยกระดับแนวคิดและเทคโนโลยีที่ขับเคลื่อนธุรกิจของลูกค้าในหลายๆอุตสาหกรรม
                 จนพลิกเกมจากผู้เล่นสู่เป็นผู้นำในวงการ อย่างเช่น แสนสิริ ที่มียอดขายที่เพิ่มขึ้นสู่ 42,000
@@ -32,12 +32,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #b3363f;"></div>
+              <div class="triangle" style="border-top-color: #b3363f;"></div>
               <a>
-                <img src="../static/code-app.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
+                <img src="../static/code-app.png" alt="code-app" class="center-logos" style="margin: -40px 0px 0px -150px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Code App ถูกก่อตั้งขึ้นมาเพื่อเป็น “สนามเด็กเล่นของคนเขียนโค้ด” ที่ coders และ geeks มาทำงานด้วยความสนุก
                 กับการสร้างสรรค์ซอฟต์แวร์แบบใส่ใจทุกรายละเอียด ตลอด 5 ปีที่ผ่านมา ที่เราได้ช่วยลูกค้าและพาร์ทเนอร์ของเราปรับตัวเข้าสู่ยุคดิจิทัล
@@ -50,12 +50,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #333333;"></div>
+              <div class="triangle" style="border-top-color: #333333;"></div>
               <a href="http://www.fiveloop.co/" target="_blank">
-                <img src="../static/fiveloop.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
+                <img src="../static/fiveloop.png" alt="fiveloop" class="center-logos" style="margin: -80px 0px 0px -83px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Fiveloop คือสมาร์ทแพลตฟอร์มสำหรับการจ้างงานนักพัฒนาซอฟต์แวร์
                 โดยให้นักพัฒนาซอฟต์แวร์โชว์ความสามารถทางด้านเทคนิคในการพิสูจน์ตัวเองเพื่อโอกาสในการได้ทำงานกับบริษัทชั้นนำด้านเทคโนโลยีในเอเชีย
@@ -67,12 +67,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #74c9de;"></div>
+              <div class="triangle" style="border-top-color: #74c9de;"></div>
               <a href="http://www.rgb72.com/" target="_blank">
-                <img src="../static/rgb-72.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
+                <img src="../static/rgb-72.png" alt="rgb72" class="center-logos" style="margin: -80px 0px 0px -83px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 rgb72 คิดค้น สร้างสรรค์ ให้คำแนะนำด้วยความเข้าใจ คือหัวใจของการทำงานระหว่างเราและลูกค้าตลอดระยะเวลามากกว่า 10 ปีที่ผ่านมา ความสำเร็จของลูกค้าคือผลลัพธ์จากกระบวนการที่เราสร้างสรรค์ให้ลูกค้าเสมอ ๆ
                 วันนี้เราได้รรับความไว้วางใจจากบริษัทขั้นนำในประเทศไทยเพื่อให้คำแนะนำและให้บริการ Creative Strategy, ออกแบบ Website และ Mobile Application งาน ​Coding ไปจนถึง Online Marketing ...
@@ -85,12 +85,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #d32053;"></div>
+              <div class="triangle" style="border-top-color:  #d32053;"></div>
               <a href="http://pollios.com/" target="_blank">
-                <img src="../static/pollios.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -83px;">
+                <img src="../static/pollios.png" alt="pollios" class="center-logos" style="margin: -80px 0px 0px -83px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Pollios (โพลลิออส, แอป Poll บนระบบ iOS) โมบายแอปพลิเคชั่นและแพลทฟอร์มสำหรับสร้างและแชร์โพลไปยังกลุ่มคนที่ใช่
                 เพื่อได้คำตอบและความเห็นผ่านการโหวตจากกลุ่มคนที่เราแคร์ พวกเราเชื่อในความแตกต่างและความเห็นต่าง ทุกเสียงมีค่าเสมอ แม้จะเป็นส่วนน้อยเพียงไหนก็ตาม
@@ -103,12 +103,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="border-top: 40px solid #ff672b;"></div>
+              <div class="triangle" style="border-top-color: #ff672b;"></div>
               <a href="https://www.wongnai.com/" target="_blank">
-                <img src="../static/wongnai.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -60px 0px 0px -145px;">
+                <img src="../static/wongnai.png" alt="wongnai" class="center-logos" style="margin: -60px 0px 0px -145px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Wongnai เว็บไซต์และแอพพลิเคชั่นที่ให้บริการค้นหาร้านอาหาร คลีนิก สปา ซาลอน อันดับหนึ่งในประเทศไทย ที่ตอบโจทย์ Lifestyle ของคนรุ่นใหม่ในยุคปัจจุบัน
                 โดยมีข้อมูลของสถานที่ทั้งที่อยู่ เบอร์โทรศัพท์ แผนที่ พร้อมทั้งรีวิวจากผู้ใช้งานจริงที่จะช่วยคุณในการตัดสินใจเลือกใช้บริการ
@@ -121,12 +121,12 @@
         <div class="column is-one-third-desktop is-half-tablet">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="border-top: 40px solid #FF672B;"></div>
+              <div class="triangle" style="border-top-color: #FF672B;"></div>
               <a href="http://www.sellsuki.co.th/" target="_blank">
-                <img src="../static/sellsuki.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -40px 0px 0px -150px;">
+                <img src="../static/sellsuki.png" alt="sellsuki" class="center-logos" style="margin: -40px 0px 0px -150px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Sellsuki ระบบบริหารร้านค้าออนไลน์ที่ถูกออกแบบมาสำหรับการค้าขายในยุคของการสื่อสารผ่านแชทและการค้าขายผ่านหลายช่องทาง
                  ทั้งทางเว็บไซต์ โซเชียล หรือหน้าร้าน
@@ -142,12 +142,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #ffd508;"></div>
+              <div class="triangle" style="border-top-color: #ffd508;"></div>
               <a href="http://claimdi.com/news/" target="_blank">
-                <img src="../static/claim-di.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -95px;">
+                <img src="../static/claim-di.png" alt="claimdi" class="center-logos" style="margin: -80px 0px 0px -95px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Claim Di กว่า 15 ปีแล้ว ที่บริษัท เอนนี่แวร์ ทู โก จำกัด ได้มุ่งมั่นพัฒนาระบบงาน Mobility Enterprise Solutions ภายใต้คอนเซ็ปต์ของบริษัทฯ คือ “anywhere to go”ซึ่งในปี 2014
                 เราปลี่ยนการทำธุรกิจแบบ SME เข้าสู่เส้นทางของสตาร์ทอัพ (Startup) กับการนำเคลมดิ (Claim Di) เข้าร่วมโครงการ DTAC Accelerate และชนะเลิศการแข่งขันทำให้เคลมดิเติบโตแบบก้าวกระโดด
@@ -162,12 +162,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #00abe5;"></div>
+              <div class="triangle" style="border-top-color: #00abe5;"></div>
               <a href="https://www.billme.co.th" target="_blank">
-                <img src="../static/bill-me.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -42px 0px 0px -141px;">
+                <img src="../static/bill-me.png" alt="billme" class="center-logos" style="margin: -42px 0px 0px -141px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Billme (บิลมี) แพลทฟอร์มสำหรับรับและส่งดิจิทัลบิล (ใบเรียกเก็บเงินดิจัทัล) พร้อมด้วยโมบายแอปพลิเคชั่น Billme ทำให้การรับและส่งบิล การขอให้จ่ายเงิน
                 เป็นเรื่องง่ายสำหรับทุกคน ไม่ว่าจะเป็นการส่งคำขอให้เพื่อนจ่ายเงินเรา เพื่อเตือนตัวเองในการจ่ายบิล หรือเพื่อรับบิลและใบเสร็จรับเงินจากร้านค้าและบริการต่างๆ เรามุ่งมั่นที่จะเป็นส่วนสำคัญในวัฒนธรรมการเงินดิจิทัล
@@ -179,12 +179,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #26b9ae;"></div>
+              <div class="triangle" style="border-top-color: #26b9ae;"></div>
               <a href="https://www.cookly.me" target="_blank">
-                <img src="../static/cookly.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -48px 0px 0px -141px;">
+                <img src="../static/cookly.png" alt="cookly" class="center-logos" style="margin: -48px 0px 0px -141px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Cookly เป็นแพลตฟอร์มชั้นนำสำหรับการจองชั้นเรียนทำอาหาร เรานำคนรักอาหารและผู้เชี่ยวชาญด้านอาหารร่วมสนุกกับการเรียนทำอาหารที่เปี่ยมคุณภาพทั่วโลก
                 ภารกิจของเราคือการทำให้การเรียนทำอาหารเป็นกิจกรรมที่ต้องทำเมื่อคนรักอาหารออกเดินทาง
@@ -197,12 +197,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #fa7500;"></div>
+              <div class="triangle" style="border-top-color: #fa7500;"></div>
               <a href="https://www.horganice.in.th/" target="_blank">
-                <img src="../static/horganice.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -33px 0px 0px -145px;">
+                <img src="../static/horganice.png" alt="horganice" class="center-logos" style="margin: -33px 0px 0px -145px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Horganice คือธุรกิจสตาร์ทอัพที่พัฒนาแอพลิเคชั่นตัวกลางในการเชื่อมต่อระหว่างผู้ประกอบการหอพัก อพาร์ทเม้นท์ และผู้เช่า
                 ที่มาพร้อมกับระบบบริหารจัดการในรูปแบบออนไลน์ ที่สามารถจัดการเรื่องทำบิลค่าเช่าห้อง การจ่ายเงินค่าเช่าห้อง การรายงานผลประกอบการ
@@ -214,12 +214,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #8cc63f;"></div>
+              <div class="triangle" style="border-top-color:  #8cc63f;"></div>
               <a href="https://www.itax.in.th/" target="_blank">
-                <img src="../static/i-tax.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -50px 0px 0px -135px;">
+                <img src="../static/i-tax.png" alt="itax" class="center-logos" style="margin: -50px 0px 0px -135px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 iTAX เชื่อว่ากฎหมายที่ซับซ้อนสามารถทำให้ง่ายได้เพื่อเป้าหมายสำคัญ คือ เพื่อช่วยให้ผู้คนทำภาษีได้อย่างถูกต้องได้เงินคืนภาษีสูงสุด วิถีของเราคือการทำโซลูชั่นภาษีที่ใช้งานง่ายและเหมาะสมกับบุคคล
                 เช่น ระบบเตรียมภาษีผ่านคำถามง่ายๆ, ระบบวางแผนภาษีอัตโนมัติที่คัดเลือกให้เหมาะสมเฉพาะบุคคล หรือแม้แต่ฐานข้อมูลเปรียบเทียบตัวเลือกลดหย่อนภาษีในที่เดียว
@@ -232,12 +232,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #00add8;"></div>
+              <div class="triangle" style=" border-top-color: #00add8;"></div>
               <a href="https://peakengine.com/" target="_blank">
-                <img src="../static/peakengine.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -80px;">
+                <img src="../static/peakengine.png" alt="peakengine" class="center-logos" style="margin: -80px 0px 0px -80px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Peak ธุรกิจจำนวนไม่น้อยต้องปิดตัวลงไปเพราะขาดการจัดการข้อมูลบัญชี การเงิน และภาษีที่ดีเพียงพอ เนื่องจากเรื่องดังกล่าวเป็นเรื่องที่ยาก ใช้เวลาเยอะ และน่าเบื่อ เราเห็นปัญหาดังกล่าวจึงได้พัฒนา PEAK ขึ้นมาเพื่อเป็นนักบัญชีเสมือนสำหรับธุรกิจ
                 SMEs ที่ช่วยจัดการเรื่อง บัญชี การเงิน และภาษีให้กับธุรกิจ เราไม่ได้สร้างแค่โปรแกรม แต่เรากำลังสร้างวิธีการดำเนินธุรกิจใหม่ ที่คนในยุคต่อไปจะต้องสงสัยว่าคนยุคก่อน PEAK ทำธุรกิจกันได้อย่างไร
@@ -249,12 +249,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #040707;"></div>
+              <div class="triangle" style=" border-top-color:  #040707;"></div>
               <a href="http://www.jeban.com/" target="_blank">
-                <img src="../static/jeban.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -75px 0px 0px -140px;">
+                <img src="../static/jeban.png" alt="jeban" class="center-logos" style="margin: -75px 0px 0px -140px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Jeban.com (จีบัน) ออนไลน์คอมมูนิตี้อันดับหนึ่งที่เพียบพร้อมไปด้วย เรื่องราวของความสวยงาม และ มิตรภาพ ของสาวๆ มีสไตล์ทุกวัย จากชื่อล็อกอิน Jeban ที่เขียนแนะนำวิธีการแต่งหน้าเชิง How to เปิดเผยหน้าสดจนกระทั่งเสร็จสวยงาม
                 ได้รับความนิยมเป็นอย่างมาก จึงกลายเป็น www.jeban.com ขึ้นอย่างเป็นทางการในปี 2550 เพื่อสร้างออนไลน์คอมมูนิตี้สำหรับผู้หญิง ในการที่จะแลกเปลี่ยนเรื่องราวต่างๆ ทั้งเคล็ดลับการแต่งหน้า แต่งตัว ความสวยงาม ความงาม ตลอดจนการพูดคุยเรื่องราวต่างๆ
@@ -269,12 +269,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #c8273f;"></div>
+              <div class="triangle" style="border-top-color: #c8273f;"></div>
               <a href="http://www.pirsquare.net/" target="_blank">
-                <img src="../static/pi-r-2.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -85px;">
+                <img src="../static/pi-r-2.png" alt="pirsquare" class="center-logos" style="margin: -80px 0px 0px -85px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Pi R Square เป็นทีมพัฒนาผลงานด้าน เกมส์, เว็บไซต์ และ แอปพลิเคชั่น ในความเชื่อที่ใช้เทคโนโลยี และการออกแบบให้เข้ากันอย่างลงตัว เราเป็นทีมที่มีประสบการณ์จาก Silicon Valley และพัฒนางานมากมายให้กับ
                 บริษัทชั้นนำต่างๆ ในไทย รวมถึงพัฒนา Start Up และเป็นที่ปรึกษาในหลายโปรเจ็ค เราเป็นทีมที่คำนึงถึง User Experience เป็นสำคัญ ในการสร้างสรรค์ผลงานใหม่ๆ อยู่ตลอดเวลา
@@ -286,12 +286,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #000000;"></div>
+              <div class="triangle" style="border-top-color: #000000;"></div>
               <a href="http://www.thebitstudio.com/" target="_blank">
-                <img src="../static/bit-studio.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -65px;">
+                <img src="../static/bit-studio.png" alt="thebitstudio" class="center-logos" style="margin: -80px 0px 0px -65px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox">
               <span class="list-company">
                 Bit Studio เป็นกลุ่ม Creative Technologist สัญชาติไทยที่นำเทคโนโลยีและศิลปะมาผสมผสานกันเพื่อสร้างสรรค์ประสบการณ์ที่สนุกและน่าสนใจในรูปแบบของ
                 Interactive Installation โดยใช้เทคโนโลยีหลากหลาย เช่น Machine Learning, Computer Vision, Computer Graphics เป็นต้น
@@ -303,12 +303,12 @@
         <div class="column is-one-third-desktop is-half-tablet ">
           <div class="partner">
             <div class="logo-box">
-              <div class="triangle" style="    border-top: 40px solid #e77f27;"></div>
+              <div class="triangle" style="border-top-color: #e77f27;"></div>
               <a href="http://marketanyware.com/th/index.html" target="_blank">
-                <img src="../static/market-anyware.png" alt="" style="    position: absolute;top: 50%;left: 50%;margin: -80px 0px 0px -94px;">
+                <img src="../static/market-anyware.png" class="center-logos" alt="marketanyware" style="margin: -80px 0px 0px -94px;">
               </a>
             </div>
-            <div class="" style="box-sizing:border-box;padding:20px;">
+            <div class="box-textbox" style="">
               <span class="list-company">
                 Market Anyware บริษัทวิจัยและพัฒนาเทคโนโลยี Financial Intelligence เป็นการนำเทคโนโลยียุคใหม่อย่าง Big Data และ Artificial Intelligence
                 มาพัฒนา personal robo-advisor ที่ทำงานบนโทรศัพท์ของคุณ เป้าหมายของเราคือจะสร้างโลกใหม่ของการลงทุนเพื่อนักลงทุนรายย่อยทุกคน
@@ -343,9 +343,21 @@ h1.title {
   position: relative;
   background-color: #FFF;
 }
-.triangle {
+div.triangle {
   	width: 0;
     height: 0;
     border-right: 40px solid transparent;
+    border-top: 40px solid;
+}
+
+div.box-textbox {
+  box-sizing:border-box;
+  padding:20px;
+}
+
+img.center-logos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 </style>
