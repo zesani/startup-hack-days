@@ -4,7 +4,7 @@
     <br>
     <div class="container">
       <div class="heading has-text-centered">
-        <h1 class="title-bold">กำหนดการ</h1>
+        <h1 class="title">กำหนดการ</h1>
       </div>
       <br>
       <br>
