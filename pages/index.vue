@@ -55,4 +55,5 @@ export default {
          url('../static/fonts/RSU.ttf') format('truetype'),
          url('../static/fonts/RSU.svg#rsu-regular') format('svg');
 }
+
 </style>

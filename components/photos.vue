@@ -9,33 +9,11 @@
       <br>
       <br>
       <div class="columns is-multiline">
-        <div class="column is-4">
-          <img src="../static/photos/1.jpg" alt="">
+
+        <div class="column is-4" v-for="picture in picturelists">
+          <img :src="picture.img_src" alt="">
         </div>
-        <div class="column is-4">
-          <img src="../static/photos/2.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/3.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/4.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/5.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/6.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/7.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/8.jpg" alt="">
-        </div>
-        <div class="column is-4">
-          <img src="../static/photos/9.jpg" alt="">
-        </div>
+
       </div>
     </div>
     <br>
@@ -45,6 +23,39 @@
 
 <script>
 export default {
+  data () {
+    return {
+      picturelists: [
+        {
+          img_src: 'photos/1.jpg',
+        },
+        {
+          img_src: 'photos/2.jpg',
+        },
+        {
+          img_src: 'photos/3.jpg',
+        },
+        {
+          img_src: 'photos/4.jpg',
+        },
+        {
+          img_src: 'photos/5.jpg',
+        },
+        {
+          img_src: 'photos/6.jpg',
+        },
+        {
+          img_src: 'photos/7.jpg',
+        },
+        {
+          img_src: 'photos/8.jpg',
+        },
+        {
+          img_src: 'photos/9.jpg',
+        }
+      ]
+    }
+  }
 }
 </script>
 
