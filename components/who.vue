@@ -16,7 +16,7 @@
             <div class="logo-box">
               <div class="triangle" :style="list.color"></div>
               <a :href="list.url" target="_blank">
-                <img :src="list.img_src" alt="fireoneone" class="center-logos">
+                <img :src="list.img_src" :alt="list.url" class="center-logos">
               </a>
             </div>
             <div class="box-textbox">
@@ -24,7 +24,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
     <br>
