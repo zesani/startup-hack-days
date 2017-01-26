@@ -33,6 +33,7 @@ module.exports = {
   loading: { color: '#3B8070' },
   plugins: [
     '~plugins/ga.js',
-    '~plugins/hotjar.js'
+    '~plugins/hotjar.js',
+    '~plugins/FacebookPixel.js'
   ]
 }
