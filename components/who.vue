@@ -20,7 +20,7 @@
               </a>
             </div>
             <div class="box-textbox">
-              <span class="list-company" v-text="list.discription"></span>
+              <span class="list-company" v-html="list.discription"></span>
             </div>
           </div>
         </div>
