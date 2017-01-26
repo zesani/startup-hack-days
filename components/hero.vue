@@ -35,11 +35,6 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.down {
-  font-size: 80px;
-  text-shadow: 0px 1px 4px #444;
-  cursor: pointer;
-}
 h1.title {
   font-family: rsu-regular;
 }
@@ -63,5 +58,28 @@ h1.title {
 }
 .hero-logo {
   height: 300px;
+}
+.down {
+  font-size: 80px;
+  text-shadow: 0px 1px 4px #444;
+  cursor: pointer;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
 }
 </style>
