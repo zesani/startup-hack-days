@@ -4,14 +4,15 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <img src="../static/theinternship-logo.png" alt="" class="hero-logo">
+        <img @click="jump()" src="../static/theinternship-logo.png" alt="" class="hero-logo">
         <br><br><br>
         <h1 class="title">
           โอกาสหนึ่งครั้งของการฝึกงานต้องให้ประสบการณ์ที่ดี<br>ต่อการทำงานตลอดไป
         </h1>
-        <!-- <h2 class="subtitle">
-          Subtitle
-        </h2> -->
+        <br><br><br>
+        <div @click="jump()">
+          <i class="fa fa-angle-down down" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
 
@@ -19,12 +20,26 @@
 </template>
 
 <script>
+import smoothScroll from 'smoothscroll'
+
 export default {
+  methods: {
+    jump () {
+      if (process.BROWSER_BUILD) {
+        var destination = document.querySelector('#section-what')
+        smoothScroll(destination)
+      }
+    }
+  }
 }
 </script>
 
 <style lang="css" scoped>
-
+.down {
+  font-size: 80px;
+  text-shadow: 0px 1px 4px #444;
+  cursor: pointer;
+}
 h1.title {
   font-family: rsu-regular;
 }
