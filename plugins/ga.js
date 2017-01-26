@@ -10,7 +10,6 @@ if (process.BROWSER_BUILD && process.env.NODE_ENV === 'production') {
   ga('send', 'pageview')
   // When the app is mounted
   window.onNuxtReady((app) => {
-    console.log('onNuxtReady')
     // And the route has changed
     app.$nuxt.$on('routeChanged', (to, from) => {
       // We tell Google Analytic to update the page

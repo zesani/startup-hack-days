@@ -15,7 +15,7 @@
           <div class="partner">
             <div class="logo-box">
               <div class="triangle" :style="'border-top-color:' + list.color"></div>
-              <a :href="list.url" target="_blank">
+              <a :href="list.url" @click="openLink(list.url)" target="_blank">
                 <img :src="list.img_src" :alt="list.url" class="center-logos">
               </a>
             </div>
@@ -34,6 +34,15 @@
 
 <script>
 export default {
+  methods: {
+    openLink (url) {
+      if (process.BROWSER_BUILD && process.env.NODE_ENV === 'production') {
+        fbq('track', 'ViewContent', {
+          content_name: url
+        })
+      }
+    }
+  },
   data () {
     return {
         lists: [

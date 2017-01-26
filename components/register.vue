@@ -13,7 +13,7 @@
               <h1 class="title">Designer</h1>
               <h1>UX Designer, Graphic Designer</h1>
               <br>
-              <a class="button is-danger" href="https://theinternship.typeform.com/to/aSKMo9">สมัครเลย</a>
+              <a class="button is-danger" @click="openLink('Designer')" href="https://theinternship.typeform.com/to/aSKMo9">สมัครเลย</a>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
               <h1 class="title">Developer</h1>
               <h1>Programmer, Tester</h1>
               <br>
-              <a class="button is-danger" href="https://theinternship.typeform.com/to/n65a98">สมัครเลย</a>
+              <a class="button is-danger" @click="openLink('Developer')" href="https://theinternship.typeform.com/to/n65a98">สมัครเลย</a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
               <h1 class="title">Business</h1>
               <h1>Marketing, Sale, Project Management</h1>
               <br>
-              <a class="button is-danger" href="https://theinternship.typeform.com/to/NUeVhb">สมัครเลย</a>
+              <a class="button is-danger" @click="openLink('Business')" href="https://theinternship.typeform.com/to/NUeVhb">สมัครเลย</a>
             </div>
           </div>
         </div>
@@ -55,6 +55,15 @@
 
 <script>
 export default {
+  methods: {
+    openLink (lead) {
+      if (process.BROWSER_BUILD && process.env.NODE_ENV === 'production') {
+        fbq('track', 'Lead', {
+          content_name: lead
+        })
+      }
+    }
+  }
 }
 </script>
 
