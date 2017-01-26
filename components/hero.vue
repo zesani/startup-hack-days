@@ -20,15 +20,15 @@
 </template>
 
 <script>
-// import smoothScroll from 'smoothscroll'
+import smoothScroll from 'smoothscroll'
 
 export default {
   methods: {
     jump () {
-      // if (process.BROWSER_BUILD) {
-      //   var destination = document.querySelector('#section-what')
-      //   smoothScroll(destination)
-      // }
+      if (process.BROWSER_BUILD) {
+        var destination = document.querySelector('#section-what')
+        smoothScroll(destination)
+      }
     }
   }
 }
