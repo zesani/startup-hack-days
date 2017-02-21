@@ -20,7 +20,7 @@
             <tbody>
               <tr>
                 <td>รับสมัครออนไลน์</td>
-                <td>18 ม.ค. – 20 ก.พ. 2560</td>
+                <td>18 ม.ค. – 22 ก.พ. 2560</td>
                 <!-- <td>www.theinternship.io</td> -->
               </tr>
               <tr>
