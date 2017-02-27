@@ -15,6 +15,19 @@
           </p>
         </div>
       </div>
+      <div class="heading has-text-centered">
+        <br><br><br><br>
+        <h1 class="title">สนับสนุนโดย</h1>
+        <br><br>
+      </div>
+      <div class="columns">
+        <div class="column is-3 is-offset-2">
+          <img src="photos/NIA.png" alt="NIA">
+        </div>
+        <div class="column is-3 is-offset-2">
+          <img src="photos/StartupThailand.png" alt="Startup Thailand">
+        </div>
+      </div>
     </div>
     <br>
     <br>

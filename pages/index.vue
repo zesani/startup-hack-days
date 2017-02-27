@@ -8,6 +8,11 @@
     <who></who>
     <faq></faq>
     <photos></photos>
+
+    <developer></developer>
+    <designer></designer>
+    <business></business>
+    
     <footer-section></footer-section>
   </div>
 </template>
@@ -23,6 +28,10 @@ import FooterSection from '../components/footer.vue'
 import Faq from '../components/faq.vue'
 import Photos from '../components/photos.vue'
 
+import Developer from '../components/developer.vue'
+import Designer from '../components/designer.vue'
+import Business from '../components/business.vue'
+
 export default {
   components: {
     Hero,
@@ -33,7 +42,10 @@ export default {
     Who,
     FooterSection,
     Faq,
-    Photos
+    Photos,
+    Developer,
+    Designer,
+    Business
   }
 }
 </script>
