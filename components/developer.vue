@@ -5,6 +5,8 @@
       <div class="heading has-text-centered">
         <h1 class="title is-1">ประกาศผล</h1>
         <h1 class="title">Developer</h1>
+        <p>กำหนดการสอบสัมภาษณ์ วันที่ 4 มี.ค. 2560</p>
+        <p>ให้ผู้ผ่านเข้ารอบมาถึงสถานที่ก่อนเวลาที่กำหนดอย่างน้อย 45 นาที</p>
       </div>
       <br>
       <br>
@@ -16,13 +18,15 @@
                 <th>id</th>
                 <th>ชื่อ</th>
                 <th>มหาวิทยาลัย</th>
+                <th>เวลา</th>
               </tr>
             </thead>
             <tbody>
-              <tr v-for="student in list">
+              <tr v-for="(student, index) in list">
                 <td>{{ student.id }}</td>
                 <td>{{ student.name }}</td>
                 <td>{{ student.university }}</td>
+                <td>{{ getTime(index) }}</td>
               </tr>
             </tbody>
           </table>
@@ -33,12 +37,28 @@
 </template>
 
 <script>
-let json = require('../data/typeform-reader-final-export.json');
+let moment = require('moment')
+let json = require('../data/typeform-reader-final-export.json')
+let room = 3
+
 export default {
   name: 'developer',
   data () {
     return {
       list: json.n65a98
+    }
+  },
+  methods: {
+    getTime (index) {
+      let start = moment("900", "hmm").add(12 * Math.floor(index/room), 'm')
+      let end = moment("900", "hmm").add(12 * (Math.floor(index/room) + 1), 'm')
+
+      if (index >= 45) {
+        start.add(60, 'm')
+        end.add(60, 'm')
+      }
+
+      return start.format("HH:mm") + ' - ' + end.format("HH:mm")
     }
   }
 }
